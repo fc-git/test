@@ -1,2 +1,6 @@
 nihao·³·³·³°¡°¡°¡¶¥¶¥¶¥
+<<<<<<< HEAD
 feature1--bugfix4444444
+=======
+feature1--bugfix-bugfix2
+>>>>>>> master
