@@ -1,7 +1,7 @@
 pipeline {
     agent {label 'master'}
     tools{
-        maven 'maven'
+        maven 'mvn3.6.3'
     }
 
     environment {
