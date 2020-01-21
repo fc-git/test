@@ -4,8 +4,7 @@ pipeline {
         maven 'mvn3.6.3'
     }
 
-    environment {
-    }
+
     stages {
         stage('pullCode'){
             steps{
