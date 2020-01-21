@@ -15,7 +15,7 @@ pipeline {
         stage('Build') {
             steps{
                 echo 'This is a Build step'
-                sh 'mvn clean package -Dmaven.test.skip=true'
+                sh 'mvn -p ./neiwai.pom.xml clean package -Dmaven.test.skip=true'
             }
         }
         stage('ssh') {
